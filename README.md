@@ -64,3 +64,22 @@ Berdasarkan hasil eksperimen:
 - Random Forest bekerja baik pada BoW, namun kurang optimal pada TF-IDF dibanding SVM.
 
 - Penggunaan teknik TF-IDF memberikan representasi kata yang lebih informatif dibanding BoW sehingga meningkatkan akurasi model berbasis SVM. Hal ini menunjukkan bahwa TF-IDF mampu mengekstrak dan merepresentasikan data teks lebih baik dibandingkan dengan BoW.
+
+💡 Impact / Business Value
+
+Penerapan model klasifikasi otomatis ini memberikan dampak signifikan terhadap operasional perusahaan e-commerce, antara lain:
+
+✔ Meningkatkan efisiensi proses kurasi produk
+Produk dapat dikategorikan otomatis tanpa inspeksi manual sehingga menghemat waktu tim operasional.
+
+✔ Mengurangi human error dalam kategorisasi
+Sistem berbasis machine learning memberikan standar konsisten dalam pengelompokan deskripsi produk.
+
+✔ Mempercepat proses onboarding seller & listing katalog
+Seller baru dapat mem-posting produk dengan cepat karena kategori dapat terisi otomatis.
+
+✔ Meningkatkan pengalaman customer
+Produk tersusun lebih rapi sehingga pencarian kategori lebih akurat → berdampak pada peningkatan conversion rate.
+
+✔ Dapat diskalakan untuk kategori tambahan
+Model dapat dikembangkan untuk mendukung lebih banyak kategori seiring pertumbuhan katalog e-commerce.
